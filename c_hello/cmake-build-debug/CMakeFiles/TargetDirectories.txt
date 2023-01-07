@@ -1,0 +1,3 @@
+/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmake-build-debug/CMakeFiles/c_hello.dir
+/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmake-build-debug/CMakeFiles/rebuild_cache.dir
