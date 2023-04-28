@@ -10,3 +10,13 @@ vim .zshrc or vim .bash_profile add....
 export PATH="/opt/homebrew/opt/openssl@3/bin:$PATH"
 export OPENSSL_ROOT_DIR="/opt/homebrew/opt/openssl@3"
 
+=======================================================
+
+
+simple-tss-ecd-lib
+cmake .. -DOPENSSL_ROOT_DIR=/usr/local/include/openssl  -DENABLE_TESTS=ON
+
+
+
+
+=======================================================

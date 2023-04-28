@@ -16,7 +16,7 @@ find_package(OpenSSL REQUIRED)
 find_package(SafeheronCryptoSuites REQUIRED)
 find_package(CryptoTSSRSA REQUIRED)
 
-add_executable(c_hello main.cpp)
+add_executable(c_hello main.cpp gg18_test.cpp gg18_test.h CTimer.h CTimer.cpp message.h party_message_queue.h)
 
 target_include_directories(${PROJECT_NAME} PUBLIC
         ${SafeheronCryptoSuites_INCLUDE_DIRS}
@@ -30,4 +30,10 @@ target_link_directories(${PROJECT_NAME} PUBLIC /usr/local/lib)
 target_link_libraries(${PROJECT_NAME} PUBLIC
         SafeheronCryptoSuites
         CryptoTSSRSA
-        pthread )
+        pthread
+        OpenSSL::Crypto
+        -ldl
+        MPCFlow
+        gtest
+        MultiPartyEcdsa
+        )

@@ -20,7 +20,15 @@ using safeheron::exception::OpensslException;
 using safeheron::exception::BadAllocException;
 using safeheron::exception::RandomSourceException;
 
-int main(int argc, char **argv) {
+
+#include "gg18_test.h"
+int main(int argc, char **argv){
+    cout << "hello" << endl;
+    TestGG18();
+}
+
+int testRSA()
+{
     std::string json_str;
     std::string doc("12345678123456781234567812345678");
 
