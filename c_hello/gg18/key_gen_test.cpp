@@ -1,11 +1,10 @@
-
 #include <cstring>
 #include <vector>
 #include <google/protobuf/stubs/common.h>
 #include "gtest/gtest.h"
 #include "crypto-curve/curve.h"
 #include "exception/located_exception.h"
-#include "../../src/multi-party-ecdsa/gg18/gg18.h"
+#include "safeheron/multi-party-ecdsa/gg18/gg18.h"
 #include "../CTimer.h"
 #include "../message.h"
 
@@ -205,7 +204,7 @@ TEST(KeyGen, KeyGen_t_n) {
         testKeyGen_t_n(safeheron::curve::CurveType::P256);
 
         std::cout << "Test gg18 key generation with STARK curve:" << std::endl;
-        //testKeyGen_t_n(safeheron::curve::CurveType::STARK);
+        testKeyGen_t_n(safeheron::curve::CurveType::STARK);
 
     } catch (const safeheron::exception::LocatedException &e) {
         std::cout << "Exception: " << e.what() << std::endl;

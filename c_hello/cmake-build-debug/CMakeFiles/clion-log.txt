@@ -1,12 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello -B /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmake-build-debug
--- ###################################
--- operation system is Darwin-22.2.0
--- current platform: Darwin 
--- ###################################
--- ###################################
--- operation system is Darwin-22.2.0
--- current platform: Darwin 
--- ###################################
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmake-build-debug
+Cannot generate into /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello
+It was created with incompatible generator 'Unix Makefiles'
+
+Please either delete it manually or select another generation directory

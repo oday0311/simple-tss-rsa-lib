@@ -6,7 +6,7 @@
 #include "crypto-curve/curve.h"
 #include "crypto-bn/rand.h"
 #include "exception/located_exception.h"
-#include "../../src/multi-party-ecdsa/cmp/cmp.h"
+#include "safeheron/multi-party-ecdsa/cmp/cmp.h"
 #include "../CTimer.h"
 #include "../message.h"
 

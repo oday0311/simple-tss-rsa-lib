@@ -5,7 +5,7 @@
 #include <exception/located_exception.h>
 #include "gtest/gtest.h"
 #include "crypto-curve/curve.h"
-#include "../../src/multi-party-ecdsa/gg20/gg20.h"
+#include "safeheron/multi-party-ecdsa/gg20/gg20.h"
 #include "../message.h"
 
 using std::string;

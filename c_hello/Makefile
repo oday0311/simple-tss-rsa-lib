@@ -177,6 +177,30 @@ gg18_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_hello.dir/build.make CMakeFiles/c_hello.dir/gg18_test.cpp.s
 .PHONY : gg18_test.cpp.s
 
+gg20_test.o: gg20_test.cpp.o
+.PHONY : gg20_test.o
+
+# target to build an object file
+gg20_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_hello.dir/build.make CMakeFiles/c_hello.dir/gg20_test.cpp.o
+.PHONY : gg20_test.cpp.o
+
+gg20_test.i: gg20_test.cpp.i
+.PHONY : gg20_test.i
+
+# target to preprocess a source file
+gg20_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_hello.dir/build.make CMakeFiles/c_hello.dir/gg20_test.cpp.i
+.PHONY : gg20_test.cpp.i
+
+gg20_test.s: gg20_test.cpp.s
+.PHONY : gg20_test.s
+
+# target to generate assembly for a file
+gg20_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_hello.dir/build.make CMakeFiles/c_hello.dir/gg20_test.cpp.s
+.PHONY : gg20_test.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -201,6 +225,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_hello.dir/build.make CMakeFiles/c_hello.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tss_cmp.o: tss_cmp.cpp.o
+.PHONY : tss_cmp.o
+
+# target to build an object file
+tss_cmp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_hello.dir/build.make CMakeFiles/c_hello.dir/tss_cmp.cpp.o
+.PHONY : tss_cmp.cpp.o
+
+tss_cmp.i: tss_cmp.cpp.i
+.PHONY : tss_cmp.i
+
+# target to preprocess a source file
+tss_cmp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_hello.dir/build.make CMakeFiles/c_hello.dir/tss_cmp.cpp.i
+.PHONY : tss_cmp.cpp.i
+
+tss_cmp.s: tss_cmp.cpp.s
+.PHONY : tss_cmp.s
+
+# target to generate assembly for a file
+tss_cmp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_hello.dir/build.make CMakeFiles/c_hello.dir/tss_cmp.cpp.s
+.PHONY : tss_cmp.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,9 +264,15 @@ help:
 	@echo "... gg18_test.o"
 	@echo "... gg18_test.i"
 	@echo "... gg18_test.s"
+	@echo "... gg20_test.o"
+	@echo "... gg20_test.i"
+	@echo "... gg20_test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tss_cmp.o"
+	@echo "... tss_cmp.i"
+	@echo "... tss_cmp.s"
 .PHONY : help
 
 

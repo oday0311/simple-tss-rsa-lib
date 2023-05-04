@@ -548,4 +548,6 @@ CMakeFiles/c_hello.dir/main.cpp.o: \
   /usr/local/include/safeheron/crypto-tss-rsa/emsa_pss.h \
   /usr/local/include/safeheron/crypto-bn/rand.h \
   /usr/local/include/safeheron/crypto-encode/hex.h \
-  /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg18_test.h
+  /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg18_test.h \
+  /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg20_test.h \
+  /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/tss_cmp.h

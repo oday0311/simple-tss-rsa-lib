@@ -111,11 +111,41 @@ CMakeFiles/c_hello.dir/CTimer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_hello.dir/CTimer.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp -o CMakeFiles/c_hello.dir/CTimer.cpp.s
 
+CMakeFiles/c_hello.dir/gg20_test.cpp.o: CMakeFiles/c_hello.dir/flags.make
+CMakeFiles/c_hello.dir/gg20_test.cpp.o: gg20_test.cpp
+CMakeFiles/c_hello.dir/gg20_test.cpp.o: CMakeFiles/c_hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/c_hello.dir/gg20_test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c_hello.dir/gg20_test.cpp.o -MF CMakeFiles/c_hello.dir/gg20_test.cpp.o.d -o CMakeFiles/c_hello.dir/gg20_test.cpp.o -c /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg20_test.cpp
+
+CMakeFiles/c_hello.dir/gg20_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_hello.dir/gg20_test.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg20_test.cpp > CMakeFiles/c_hello.dir/gg20_test.cpp.i
+
+CMakeFiles/c_hello.dir/gg20_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_hello.dir/gg20_test.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg20_test.cpp -o CMakeFiles/c_hello.dir/gg20_test.cpp.s
+
+CMakeFiles/c_hello.dir/tss_cmp.cpp.o: CMakeFiles/c_hello.dir/flags.make
+CMakeFiles/c_hello.dir/tss_cmp.cpp.o: tss_cmp.cpp
+CMakeFiles/c_hello.dir/tss_cmp.cpp.o: CMakeFiles/c_hello.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/c_hello.dir/tss_cmp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/c_hello.dir/tss_cmp.cpp.o -MF CMakeFiles/c_hello.dir/tss_cmp.cpp.o.d -o CMakeFiles/c_hello.dir/tss_cmp.cpp.o -c /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/tss_cmp.cpp
+
+CMakeFiles/c_hello.dir/tss_cmp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_hello.dir/tss_cmp.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/tss_cmp.cpp > CMakeFiles/c_hello.dir/tss_cmp.cpp.i
+
+CMakeFiles/c_hello.dir/tss_cmp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_hello.dir/tss_cmp.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/tss_cmp.cpp -o CMakeFiles/c_hello.dir/tss_cmp.cpp.s
+
 # Object files for target c_hello
 c_hello_OBJECTS = \
 "CMakeFiles/c_hello.dir/main.cpp.o" \
 "CMakeFiles/c_hello.dir/gg18_test.cpp.o" \
-"CMakeFiles/c_hello.dir/CTimer.cpp.o"
+"CMakeFiles/c_hello.dir/CTimer.cpp.o" \
+"CMakeFiles/c_hello.dir/gg20_test.cpp.o" \
+"CMakeFiles/c_hello.dir/tss_cmp.cpp.o"
 
 # External object files for target c_hello
 c_hello_EXTERNAL_OBJECTS =
@@ -123,13 +153,15 @@ c_hello_EXTERNAL_OBJECTS =
 c_hello: CMakeFiles/c_hello.dir/main.cpp.o
 c_hello: CMakeFiles/c_hello.dir/gg18_test.cpp.o
 c_hello: CMakeFiles/c_hello.dir/CTimer.cpp.o
+c_hello: CMakeFiles/c_hello.dir/gg20_test.cpp.o
+c_hello: CMakeFiles/c_hello.dir/tss_cmp.cpp.o
 c_hello: CMakeFiles/c_hello.dir/build.make
 c_hello: /usr/local/lib/libCryptoTSSRSA.dylib
 c_hello: /opt/homebrew/opt/openssl@3/lib/libcrypto.dylib
 c_hello: /usr/local/lib/libSafeheronCryptoSuites.dylib
 c_hello: /opt/homebrew/opt/openssl@3/lib/libcrypto.dylib
 c_hello: CMakeFiles/c_hello.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable c_hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable c_hello"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_hello.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

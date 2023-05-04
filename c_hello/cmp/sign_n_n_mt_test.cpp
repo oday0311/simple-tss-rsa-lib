@@ -5,8 +5,8 @@
 #include <exception/located_exception.h>
 #include "gtest/gtest.h"
 #include "crypto-curve/curve.h"
-#include "../../src/multi-party-ecdsa/cmp/cmp.h"
-#include "../../src/multi-party-ecdsa/cmp/util.h"
+#include "safeheron/multi-party-ecdsa/cmp/cmp.h"
+#include "safeheron/multi-party-ecdsa/cmp/util.h"
 #include "../thread_safe_queue.h"
 #include "../message.h"
 #include "../party_message_queue.h"

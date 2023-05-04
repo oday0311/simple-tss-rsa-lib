@@ -22,12 +22,36 @@ using safeheron::exception::RandomSourceException;
 
 
 #include "gg18_test.h"
+#include "gg20_test.h"
+#include "tss_cmp.h"
+int startGG20();
+int startGG18();
+int startTssCmp();
+int startRSA();
+
 int main(int argc, char **argv){
     cout << "hello" << endl;
+
+    //startGG20();
+    startTssCmp();
+    return 0;
+}
+
+
+int startTssCmp(){
+    TestTssCmp();
+}
+int startGG20()
+{
+    TestGG20();
+}
+
+int startGG18()
+{
     TestGG18();
 }
 
-int testRSA()
+int startRSA()
 {
     std::string json_str;
     std::string doc("12345678123456781234567812345678");

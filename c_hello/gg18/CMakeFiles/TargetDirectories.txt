@@ -1,0 +1,3 @@
+/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg18/CMakeFiles/gg18.dir
+/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg18/CMakeFiles/edit_cache.dir
+/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg18/CMakeFiles/rebuild_cache.dir

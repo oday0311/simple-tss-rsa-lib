@@ -1,0 +1,20 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp" "CMakeFiles/gg18_keygen.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.o" "gcc" "CMakeFiles/gg18_keygen.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.o.d"
+  "/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg18/key_gen_test.cpp" "CMakeFiles/gg18_keygen.dir/key_gen_test.cpp.o" "gcc" "CMakeFiles/gg18_keygen.dir/key_gen_test.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
