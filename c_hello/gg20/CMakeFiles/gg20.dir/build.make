@@ -69,19 +69,19 @@ include CMakeFiles/gg20.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/gg20.dir/flags.make
 
-CMakeFiles/gg20.dir/sign_test.cpp.o: CMakeFiles/gg20.dir/flags.make
-CMakeFiles/gg20.dir/sign_test.cpp.o: sign_test.cpp
-CMakeFiles/gg20.dir/sign_test.cpp.o: CMakeFiles/gg20.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg20/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gg20.dir/sign_test.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gg20.dir/sign_test.cpp.o -MF CMakeFiles/gg20.dir/sign_test.cpp.o.d -o CMakeFiles/gg20.dir/sign_test.cpp.o -c /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg20/sign_test.cpp
+CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.o: CMakeFiles/gg20.dir/flags.make
+CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.o: sign_t_n_mt_test.cpp
+CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.o: CMakeFiles/gg20.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg20/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.o -MF CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.o.d -o CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.o -c /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg20/sign_t_n_mt_test.cpp
 
-CMakeFiles/gg20.dir/sign_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gg20.dir/sign_test.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg20/sign_test.cpp > CMakeFiles/gg20.dir/sign_test.cpp.i
+CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg20/sign_t_n_mt_test.cpp > CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.i
 
-CMakeFiles/gg20.dir/sign_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gg20.dir/sign_test.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg20/sign_test.cpp -o CMakeFiles/gg20.dir/sign_test.cpp.s
+CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/gg20/sign_t_n_mt_test.cpp -o CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.s
 
 CMakeFiles/gg20.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.o: CMakeFiles/gg20.dir/flags.make
 CMakeFiles/gg20.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.o: /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp
@@ -99,13 +99,13 @@ CMakeFiles/gg20.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello
 
 # Object files for target gg20
 gg20_OBJECTS = \
-"CMakeFiles/gg20.dir/sign_test.cpp.o" \
+"CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.o" \
 "CMakeFiles/gg20.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.o"
 
 # External object files for target gg20
 gg20_EXTERNAL_OBJECTS =
 
-gg20: CMakeFiles/gg20.dir/sign_test.cpp.o
+gg20: CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.o
 gg20: CMakeFiles/gg20.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.o
 gg20: CMakeFiles/gg20.dir/build.make
 gg20: /usr/local/lib/libCryptoTSSRSA.dylib

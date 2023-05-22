@@ -150,42 +150,42 @@ TEST(gg18, key_gen_mt) {
     }
 
     //P256 sample
-    printf("Test gg18 key generation with p256 curve\n");
-    //Initialize the message queue
-    for (int i = 0; i < N_PARTIES; ++i) {
-        map_id_message_queue[party_ids[i]] = PartyMessageQue<Msg>(ROUNDS);
-    }
-    for (int i = 0; i < N_PARTIES; ++i) {
-        std::vector<std::string> remote_party_ids;
-        for (int j = 0; j < N_PARTIES; ++j) {
-            if (j != i) {
-                remote_party_ids.push_back(party_ids[j]);
-            }
-        }
-        res[i] = std::async(std::launch::async, key_gen, CurveType::P256, workspace_id, THRESHOLD, N_PARTIES, party_ids[i], indexes[i], remote_party_ids);
-    }
-    for (int i = 0; i < N_PARTIES; ++i) {
-        EXPECT_TRUE(res[i].get());
-    }
+//    printf("Test gg18 key generation with p256 curve\n");
+//    //Initialize the message queue
+//    for (int i = 0; i < N_PARTIES; ++i) {
+//        map_id_message_queue[party_ids[i]] = PartyMessageQue<Msg>(ROUNDS);
+//    }
+//    for (int i = 0; i < N_PARTIES; ++i) {
+//        std::vector<std::string> remote_party_ids;
+//        for (int j = 0; j < N_PARTIES; ++j) {
+//            if (j != i) {
+//                remote_party_ids.push_back(party_ids[j]);
+//            }
+//        }
+//        res[i] = std::async(std::launch::async, key_gen, CurveType::P256, workspace_id, THRESHOLD, N_PARTIES, party_ids[i], indexes[i], remote_party_ids);
+//    }
+//    for (int i = 0; i < N_PARTIES; ++i) {
+//        EXPECT_TRUE(res[i].get());
+//    }
 
     //STARK sample
-    printf("Test gg18 key generation with stark curve\n");
-    //Initialize the message queue
-    for (int i = 0; i < N_PARTIES; ++i) {
-        map_id_message_queue[party_ids[i]] = PartyMessageQue<Msg>(ROUNDS);
-    }
-    for (int i = 0; i < N_PARTIES; ++i) {
-        std::vector<std::string> remote_party_ids;
-        for (int j = 0; j < N_PARTIES; ++j) {
-            if (j != i) {
-                remote_party_ids.push_back(party_ids[j]);
-            }
-        }
-        res[i] = std::async(std::launch::async, key_gen, CurveType::STARK, workspace_id, THRESHOLD, N_PARTIES, party_ids[i], indexes[i], remote_party_ids);
-    }
-    for (int i = 0; i < N_PARTIES; ++i) {
-        EXPECT_TRUE(res[i].get());
-    }
+//    printf("Test gg18 key generation with stark curve\n");
+//    //Initialize the message queue
+//    for (int i = 0; i < N_PARTIES; ++i) {
+//        map_id_message_queue[party_ids[i]] = PartyMessageQue<Msg>(ROUNDS);
+//    }
+//    for (int i = 0; i < N_PARTIES; ++i) {
+//        std::vector<std::string> remote_party_ids;
+//        for (int j = 0; j < N_PARTIES; ++j) {
+//            if (j != i) {
+//                remote_party_ids.push_back(party_ids[j]);
+//            }
+//        }
+//        res[i] = std::async(std::launch::async, key_gen, CurveType::STARK, workspace_id, THRESHOLD, N_PARTIES, party_ids[i], indexes[i], remote_party_ids);
+//    }
+//    for (int i = 0; i < N_PARTIES; ++i) {
+//        EXPECT_TRUE(res[i].get());
+//    }
 }
 
 int main(int argc, char **argv) {

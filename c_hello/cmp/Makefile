@@ -153,29 +153,29 @@ Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmp.dir/build.make CMakeFiles/cmp.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.s
 .PHONY : Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.s
 
-minimal_key_gen_test.o: minimal_key_gen_test.cpp.o
-.PHONY : minimal_key_gen_test.o
+aux_info_key_refresh_mt_test.o: aux_info_key_refresh_mt_test.cpp.o
+.PHONY : aux_info_key_refresh_mt_test.o
 
 # target to build an object file
-minimal_key_gen_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmp.dir/build.make CMakeFiles/cmp.dir/minimal_key_gen_test.cpp.o
-.PHONY : minimal_key_gen_test.cpp.o
+aux_info_key_refresh_mt_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmp.dir/build.make CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.o
+.PHONY : aux_info_key_refresh_mt_test.cpp.o
 
-minimal_key_gen_test.i: minimal_key_gen_test.cpp.i
-.PHONY : minimal_key_gen_test.i
+aux_info_key_refresh_mt_test.i: aux_info_key_refresh_mt_test.cpp.i
+.PHONY : aux_info_key_refresh_mt_test.i
 
 # target to preprocess a source file
-minimal_key_gen_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmp.dir/build.make CMakeFiles/cmp.dir/minimal_key_gen_test.cpp.i
-.PHONY : minimal_key_gen_test.cpp.i
+aux_info_key_refresh_mt_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmp.dir/build.make CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.i
+.PHONY : aux_info_key_refresh_mt_test.cpp.i
 
-minimal_key_gen_test.s: minimal_key_gen_test.cpp.s
-.PHONY : minimal_key_gen_test.s
+aux_info_key_refresh_mt_test.s: aux_info_key_refresh_mt_test.cpp.s
+.PHONY : aux_info_key_refresh_mt_test.s
 
 # target to generate assembly for a file
-minimal_key_gen_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmp.dir/build.make CMakeFiles/cmp.dir/minimal_key_gen_test.cpp.s
-.PHONY : minimal_key_gen_test.cpp.s
+aux_info_key_refresh_mt_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmp.dir/build.make CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.s
+.PHONY : aux_info_key_refresh_mt_test.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.o"
 	@echo "... Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.i"
 	@echo "... Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.s"
-	@echo "... minimal_key_gen_test.o"
-	@echo "... minimal_key_gen_test.i"
-	@echo "... minimal_key_gen_test.s"
+	@echo "... aux_info_key_refresh_mt_test.o"
+	@echo "... aux_info_key_refresh_mt_test.i"
+	@echo "... aux_info_key_refresh_mt_test.s"
 .PHONY : help
 
 

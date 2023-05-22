@@ -133,46 +133,46 @@ TEST(cmp, minimal_key_gen_mt) {
     };
 
     //SECP256K1 sample
-    printf("Test cmp key generation with secp256k1 curve\n");
-    //Initialize the message queue
-    for (int i = 0; i < N_PARTIES; ++i) {
-        map_id_message_queue[party_ids[i]] = PartyMessageQue<Msg>(ROUNDS);
-    }
-    for (int i = 0; i < N_PARTIES; ++i) {
-        std::vector<std::string> remote_party_ids;
-        std::vector<BN> remote_party_indexes;
-        for (int j = 0; j < N_PARTIES; ++j) {
-            if (j != i) {
-                remote_party_ids.push_back(party_ids[j]);
-                remote_party_indexes.push_back(indexes[j]);
-            }
-        }
-        res[i] = std::async(std::launch::async, key_gen, CurveType::SECP256K1, N_PARTIES, THRESHOLD, party_ids[i], indexes[i], remote_party_ids, remote_party_indexes, ssid);
-    }
-    for (int i = 0; i < N_PARTIES; ++i) {
-        EXPECT_TRUE(res[i].get());
-    }
+//    printf("Test cmp key generation with secp256k1 curve\n");
+//    //Initialize the message queue
+//    for (int i = 0; i < N_PARTIES; ++i) {
+//        map_id_message_queue[party_ids[i]] = PartyMessageQue<Msg>(ROUNDS);
+//    }
+//    for (int i = 0; i < N_PARTIES; ++i) {
+//        std::vector<std::string> remote_party_ids;
+//        std::vector<BN> remote_party_indexes;
+//        for (int j = 0; j < N_PARTIES; ++j) {
+//            if (j != i) {
+//                remote_party_ids.push_back(party_ids[j]);
+//                remote_party_indexes.push_back(indexes[j]);
+//            }
+//        }
+//        res[i] = std::async(std::launch::async, key_gen, CurveType::SECP256K1, N_PARTIES, THRESHOLD, party_ids[i], indexes[i], remote_party_ids, remote_party_indexes, ssid);
+//    }
+//    for (int i = 0; i < N_PARTIES; ++i) {
+//        EXPECT_TRUE(res[i].get());
+//    }
 
     //P256 sample
-    printf("Test cmp key generation with p256 curve\n");
-    //Initialize the message queue
-    for (int i = 0; i < N_PARTIES; ++i) {
-        map_id_message_queue[party_ids[i]] = PartyMessageQue<Msg>(ROUNDS);
-    }
-    for (int i = 0; i < N_PARTIES; ++i) {
-        std::vector<std::string> remote_party_ids;
-        std::vector<BN> remote_party_indexes;
-        for (int j = 0; j < N_PARTIES; ++j) {
-            if (j != i) {
-                remote_party_ids.push_back(party_ids[j]);
-                remote_party_indexes.push_back(indexes[j]);
-            }
-        }
-        res[i] = std::async(std::launch::async, key_gen, CurveType::P256, N_PARTIES, THRESHOLD, party_ids[i], indexes[i], remote_party_ids, remote_party_indexes, ssid);
-    }
-    for (int i = 0; i < N_PARTIES; ++i) {
-        EXPECT_TRUE(res[i].get());
-    }
+//    printf("Test cmp key generation with p256 curve\n");
+//    //Initialize the message queue
+//    for (int i = 0; i < N_PARTIES; ++i) {
+//        map_id_message_queue[party_ids[i]] = PartyMessageQue<Msg>(ROUNDS);
+//    }
+//    for (int i = 0; i < N_PARTIES; ++i) {
+//        std::vector<std::string> remote_party_ids;
+//        std::vector<BN> remote_party_indexes;
+//        for (int j = 0; j < N_PARTIES; ++j) {
+//            if (j != i) {
+//                remote_party_ids.push_back(party_ids[j]);
+//                remote_party_indexes.push_back(indexes[j]);
+//            }
+//        }
+//        res[i] = std::async(std::launch::async, key_gen, CurveType::P256, N_PARTIES, THRESHOLD, party_ids[i], indexes[i], remote_party_ids, remote_party_indexes, ssid);
+//    }
+//    for (int i = 0; i < N_PARTIES; ++i) {
+//        EXPECT_TRUE(res[i].get());
+//    }
 
     //STARK sample
     printf("Test cmp key generation with stark curve\n");

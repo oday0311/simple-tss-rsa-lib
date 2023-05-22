@@ -16,8 +16,14 @@ find_package(OpenSSL REQUIRED)
 find_package(SafeheronCryptoSuites REQUIRED)
 find_package(CryptoTSSRSA REQUIRED)
 
-add_executable(cmp
-        minimal_key_gen_test.cpp  ../CTimer.cpp)
+#keygen
+#add_executable(cmp minimal_key_gen_mt_test.cpp  ../CTimer.cpp)
+#sign
+#add_executable(cmp sign_t_n_mt_test.cpp  ../CTimer.cpp)
+
+#fresh
+add_executable(cmp aux_info_key_refresh_mt_test.cpp  ../CTimer.cpp)
+
 
 target_include_directories(${PROJECT_NAME} PUBLIC
         ${SafeheronCryptoSuites_INCLUDE_DIRS}

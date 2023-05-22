@@ -153,29 +153,29 @@ Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gg20.dir/build.make CMakeFiles/gg20.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.s
 .PHONY : Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.s
 
-sign_test.o: sign_test.cpp.o
-.PHONY : sign_test.o
+sign_t_n_mt_test.o: sign_t_n_mt_test.cpp.o
+.PHONY : sign_t_n_mt_test.o
 
 # target to build an object file
-sign_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gg20.dir/build.make CMakeFiles/gg20.dir/sign_test.cpp.o
-.PHONY : sign_test.cpp.o
+sign_t_n_mt_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gg20.dir/build.make CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.o
+.PHONY : sign_t_n_mt_test.cpp.o
 
-sign_test.i: sign_test.cpp.i
-.PHONY : sign_test.i
+sign_t_n_mt_test.i: sign_t_n_mt_test.cpp.i
+.PHONY : sign_t_n_mt_test.i
 
 # target to preprocess a source file
-sign_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gg20.dir/build.make CMakeFiles/gg20.dir/sign_test.cpp.i
-.PHONY : sign_test.cpp.i
+sign_t_n_mt_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gg20.dir/build.make CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.i
+.PHONY : sign_t_n_mt_test.cpp.i
 
-sign_test.s: sign_test.cpp.s
-.PHONY : sign_test.s
+sign_t_n_mt_test.s: sign_t_n_mt_test.cpp.s
+.PHONY : sign_t_n_mt_test.s
 
 # target to generate assembly for a file
-sign_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gg20.dir/build.make CMakeFiles/gg20.dir/sign_test.cpp.s
-.PHONY : sign_test.cpp.s
+sign_t_n_mt_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gg20.dir/build.make CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.s
+.PHONY : sign_t_n_mt_test.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.o"
 	@echo "... Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.i"
 	@echo "... Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.s"
-	@echo "... sign_test.o"
-	@echo "... sign_test.i"
-	@echo "... sign_test.s"
+	@echo "... sign_t_n_mt_test.o"
+	@echo "... sign_t_n_mt_test.i"
+	@echo "... sign_t_n_mt_test.s"
 .PHONY : help
 
 

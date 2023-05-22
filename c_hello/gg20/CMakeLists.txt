@@ -16,8 +16,8 @@ find_package(OpenSSL REQUIRED)
 find_package(SafeheronCryptoSuites REQUIRED)
 find_package(CryptoTSSRSA REQUIRED)
 
-add_executable(gg20
-        sign_test.cpp  ../CTimer.cpp)
+#add_executable(gg20 sign_test.cpp  ../CTimer.cpp)
+add_executable(gg20 sign_t_n_mt_test.cpp  ../CTimer.cpp)
 
 target_include_directories(${PROJECT_NAME} PUBLIC
         ${SafeheronCryptoSuites_INCLUDE_DIRS}

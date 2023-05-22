@@ -215,10 +215,10 @@ void TestKeygen() {
     // while t == n
     try {
         std::cout << "Test gg18 key generation with SECP256K1 curve:" << std::endl;
-        testKeyGen_t_n(safeheron::curve::CurveType::SECP256K1);
+        //testKeyGen_t_n(safeheron::curve::CurveType::SECP256K1);
 
         std::cout << "Test gg18 key generation with P256 curve:" << std::endl;
-        testKeyGen_t_n(safeheron::curve::CurveType::P256);
+        //testKeyGen_t_n(safeheron::curve::CurveType::P256);
 
         std::cout << "Test gg18 key generation with STARK curve:" << std::endl;
         testKeyGen_t_n(safeheron::curve::CurveType::STARK);

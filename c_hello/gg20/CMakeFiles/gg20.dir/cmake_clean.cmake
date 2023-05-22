@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gg20.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.o"
   "CMakeFiles/gg20.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.o.d"
-  "CMakeFiles/gg20.dir/sign_test.cpp.o"
-  "CMakeFiles/gg20.dir/sign_test.cpp.o.d"
+  "CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.o"
+  "CMakeFiles/gg20.dir/sign_t_n_mt_test.cpp.o.d"
   "gg20"
   "gg20.pdb"
 )

@@ -32,8 +32,9 @@ int startRSA();
 int main(int argc, char **argv){
     cout << "hello" << endl;
 
-    //startGG20();
-    startTssCmp();
+    startGG18();
+//    startGG20();
+    ///startTssCmp();
     return 0;
 }
 
