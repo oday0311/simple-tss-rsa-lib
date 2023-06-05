@@ -18,7 +18,7 @@ find_package(CryptoTSSRSA REQUIRED)
 
 add_executable(c_hello
         main.cpp
-        gg18_test.cpp gg18_test.h CTimer.h CTimer.cpp message.h party_message_queue.h gg20_test.h gg20_test.cpp tss_cmp.h tss_cmp.cpp)
+        gg18_test.cpp gg18_test.h CTimer.h CTimer.cpp message.h party_message_queue.h gg20_test.h gg20_test.cpp tss_cmp.h tss_cmp.cpp paillier.h paillier.cpp)
 
 target_include_directories(${PROJECT_NAME} PUBLIC
         ${SafeheronCryptoSuites_INCLUDE_DIRS}

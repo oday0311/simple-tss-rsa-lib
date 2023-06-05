@@ -225,6 +225,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_hello.dir/build.make CMakeFiles/c_hello.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+paillier.o: paillier.cpp.o
+.PHONY : paillier.o
+
+# target to build an object file
+paillier.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_hello.dir/build.make CMakeFiles/c_hello.dir/paillier.cpp.o
+.PHONY : paillier.cpp.o
+
+paillier.i: paillier.cpp.i
+.PHONY : paillier.i
+
+# target to preprocess a source file
+paillier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_hello.dir/build.make CMakeFiles/c_hello.dir/paillier.cpp.i
+.PHONY : paillier.cpp.i
+
+paillier.s: paillier.cpp.s
+.PHONY : paillier.s
+
+# target to generate assembly for a file
+paillier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_hello.dir/build.make CMakeFiles/c_hello.dir/paillier.cpp.s
+.PHONY : paillier.cpp.s
+
 tss_cmp.o: tss_cmp.cpp.o
 .PHONY : tss_cmp.o
 
@@ -270,6 +294,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... paillier.o"
+	@echo "... paillier.i"
+	@echo "... paillier.s"
 	@echo "... tss_cmp.o"
 	@echo "... tss_cmp.i"
 	@echo "... tss_cmp.s"

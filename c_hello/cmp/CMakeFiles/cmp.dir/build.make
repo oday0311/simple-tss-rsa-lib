@@ -69,19 +69,19 @@ include CMakeFiles/cmp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cmp.dir/flags.make
 
-CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.o: CMakeFiles/cmp.dir/flags.make
-CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.o: aux_info_key_refresh_mt_test.cpp
-CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.o: CMakeFiles/cmp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.o -MF CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.o.d -o CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.o -c /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmp/aux_info_key_refresh_mt_test.cpp
+CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.o: CMakeFiles/cmp.dir/flags.make
+CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.o: sign_t_n_mt_test.cpp
+CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.o: CMakeFiles/cmp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.o -MF CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.o.d -o CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.o -c /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmp/sign_t_n_mt_test.cpp
 
-CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmp/aux_info_key_refresh_mt_test.cpp > CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.i
+CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmp/sign_t_n_mt_test.cpp > CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.i
 
-CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmp/aux_info_key_refresh_mt_test.cpp -o CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.s
+CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/cmp/sign_t_n_mt_test.cpp -o CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.s
 
 CMakeFiles/cmp.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.o: CMakeFiles/cmp.dir/flags.make
 CMakeFiles/cmp.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.o: /Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp
@@ -99,13 +99,13 @@ CMakeFiles/cmp.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/
 
 # Object files for target cmp
 cmp_OBJECTS = \
-"CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.o" \
+"CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.o" \
 "CMakeFiles/cmp.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.o"
 
 # External object files for target cmp
 cmp_EXTERNAL_OBJECTS =
 
-cmp: CMakeFiles/cmp.dir/aux_info_key_refresh_mt_test.cpp.o
+cmp: CMakeFiles/cmp.dir/sign_t_n_mt_test.cpp.o
 cmp: CMakeFiles/cmp.dir/Users/huangzhifang/Desktop/github/simple-tss-rsa-lib/c_hello/CTimer.cpp.o
 cmp: CMakeFiles/cmp.dir/build.make
 cmp: /usr/local/lib/libCryptoTSSRSA.dylib

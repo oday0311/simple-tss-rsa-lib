@@ -8,6 +8,8 @@ using namespace std;
 #include "exception/safeheron_exceptions.h"
 #include "crypto-tss-rsa/tss_rsa.h"
 #include "crypto-encode/hex.h"
+#include "paillier.h"
+
 
 using safeheron::bignum::BN;
 using safeheron::tss_rsa::RSAPrivateKeyShare;
@@ -32,7 +34,9 @@ int startRSA();
 int main(int argc, char **argv){
     cout << "hello" << endl;
 
-    startGG18();
+
+    test_paillier_4096();
+    //startGG18();
 //    startGG20();
     ///startTssCmp();
     return 0;
